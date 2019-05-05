@@ -1,21 +1,17 @@
 {
   "name": "phpcurd/phpcurd",
-  "type": "project",
-  "description": "Simple CURD framework",
+  "type": "package",
+  "description": "php curd package",
   "keywords": [
       "framework"
   ],
   "license": "MIT",
   "require": {
-      "php": "^7.*"
+    "php": ">=7.0"
   },
   "autoload": {
      "classmap": [
-       "vendor/phpcurd/connection.php",
-       "vendor/phpcurd/Curd.php"
+       "src/"
      ]
-  },
-  "config": {
-    "config": "config"
   }
 }

@@ -10,7 +10,7 @@ class Connection {
 
   public function __construct ()
   {
-      $this->config = require_once(__DIR__.'/../../config/database.php');
+      $this->config = require_once(__DIR__.'/../config/database.php');
   }
 
   public function connect()

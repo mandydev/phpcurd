@@ -5,4 +5,4 @@ use Phpcurd\CURD;
 
 $curd = new CURD;
 
-echo '<pre>'; print_r($curd->get('test')); die;
+echo '<pre>'; print_r($curd->select('test')->whereIn('name', ['test', 'tt'])->first()); die;
